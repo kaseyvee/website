@@ -13,19 +13,21 @@ nav {
   z-index: 1;
 
   button {
-    aspect-ratio: 1;
+    height: 45px;
+    width: 45px;
+
+    i {
+      transition-duration: 200ms;
+    }
+
+    &:hover i {
+      font-size: xx-large;
+    }
   }
 
   a {
     color: inherit;
-  }
-
-  i {
-    transition-duration: 200ms;
-
-    &:hover {
-      font-size: xx-large;
-    }
+    text-decoration: none;
   }
 
   div {

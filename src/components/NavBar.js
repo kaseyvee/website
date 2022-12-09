@@ -7,37 +7,47 @@ export default function NavBar() {
       <div>
         <div>
           <Tooltip title="home">
-            <IconButton>
-              <a href="#home"><i class="fa-solid fa-house"></i></a>
-            </IconButton>
+            <a href="#home">
+              <IconButton>
+                <i class="fa-solid fa-house"></i>
+              </IconButton>
+            </a>
           </Tooltip>
         </div>
         <div>
           <Tooltip title="about">
-            <IconButton>
-              <a href="#about"><i class="fa-solid fa-user"></i></a>
-            </IconButton>
+            <a href="#about">
+              <IconButton>
+                <i class="fa-solid fa-user"></i>
+              </IconButton>
+            </a>
           </Tooltip>
         </div>
         <div>
           <Tooltip title="projects">
-            <IconButton>
-              <a href="#projects"><i class="fa-solid fa-folder-open"></i></a>
-            </IconButton>
+            <a href="#projects">
+              <IconButton>
+                <i class="fa-solid fa-folder-open"></i>
+              </IconButton>
+            </a>
           </Tooltip>
         </div>
         <div>
           <Tooltip title="contact me">
-            <IconButton>
-              <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
-            </IconButton>
+            <a href="#contact">
+              <IconButton>
+                <i class="fa-solid fa-envelope"></i>
+              </IconButton>
+            </a>
           </Tooltip>
         </div>
         <div>
           <Tooltip title="resume">
-            <IconButton>
-              <a href='https://resume.creddle.io/resume/hje8hgzfv4a' target="_blank" rel="noreferrer noopener"><i class="fa-solid fa-file"></i></a>
-            </IconButton>
+            <a href='https://resume.creddle.io/resume/hje8hgzfv4a' target="_blank" rel="noreferrer noopener">
+              <IconButton>
+                <i class="fa-solid fa-file"></i>
+              </IconButton>
+            </a>
           </Tooltip>
         </div>
       </div>
