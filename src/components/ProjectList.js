@@ -36,7 +36,7 @@ export default function ProjectList() {
     return (
       <div>
         <div className="project-description">
-          <a href={project.link}><h2>{project.name}</h2></a>
+          <a href={project.link} target="_blank" rel="noreferrer noopener"><h2>{project.name}</h2></a>
           <p>{project.description}</p>
           <StackList stack={project.techStack}/>
         </div>
