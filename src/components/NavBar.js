@@ -9,7 +9,7 @@ export default function NavBar() {
           <Tooltip title="home">
             <a href="#home">
               <IconButton>
-                <i class="fa-solid fa-house"></i>
+                <i className="fa-solid fa-house"></i>
               </IconButton>
             </a>
           </Tooltip>
@@ -18,7 +18,7 @@ export default function NavBar() {
           <Tooltip title="about">
             <a href="#about">
               <IconButton>
-                <i class="fa-solid fa-user"></i>
+                <i className="fa-solid fa-user"></i>
               </IconButton>
             </a>
           </Tooltip>
@@ -27,7 +27,7 @@ export default function NavBar() {
           <Tooltip title="projects">
             <a href="#projects">
               <IconButton>
-                <i class="fa-solid fa-folder-open"></i>
+                <i className="fa-solid fa-folder-open"></i>
               </IconButton>
             </a>
           </Tooltip>
@@ -36,7 +36,7 @@ export default function NavBar() {
           <Tooltip title="contact me">
             <a href="#contact">
               <IconButton>
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
               </IconButton>
             </a>
           </Tooltip>
@@ -45,7 +45,7 @@ export default function NavBar() {
           <Tooltip title="resume">
             <a href='https://resume.creddle.io/resume/hje8hgzfv4a' target="_blank" rel="noreferrer noopener">
               <IconButton>
-                <i class="fa-solid fa-file"></i>
+                <i className="fa-solid fa-file"></i>
               </IconButton>
             </a>
           </Tooltip>

@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <div id="contact" className="page">
-      contact
+      <i className="fa-brands fa-github"></i>
     </div>
   )
 }

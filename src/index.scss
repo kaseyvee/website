@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -8,6 +12,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: $blue;
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $beige;
+  border-radius: 10px;
 }
 
 code {

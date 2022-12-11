@@ -10,7 +10,6 @@ nav {
   position: fixed;
   height: 100vh;
   width: 90px;
-  z-index: 1;
 
   button {
     height: 45px;
@@ -41,41 +40,75 @@ nav {
 }
 
 .App {
-  text-align: center;
+  font-weight: bold;
+  color: $black;
+
 
   .page {
     display: flex;
     justify-content: center;
+    align-content: center;
     align-items: center;
     height: 100vh;
+    margin-left: 90px;
   }
 
   #home {
-    img {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border: 3px solid $beige;
-      border-radius: 50%;
-      margin-right: 2rem;
-      transition-duration: 200ms;
-    }
-    
     .text {
       display: flex;
       flex-direction: column;
-      text-align: left;
       color: $black;
-      font-weight: bold;
   
       h1 {
-        font-size: 60px;
+        font-size: 150px;
         margin: 0;
       }
   
       p {
+        font-size: 30px;
         margin-bottom: 0;
       }
     }
+  }
+  
+  #about {
+    display: flex;
+    flex-direction: column;
+
+    .bio {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      
+      img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 3px solid $beige;
+        border-radius: 50%;
+        margin-right: 2rem;
+        transition-duration: 200ms;
+      }
+  
+      .intro {
+        width: 40vw;
+        font-size: larger;
+      }
+    }
+
+    .skills {
+      i {
+        font-size: 60px;
+        margin: 2rem;
+        transition-duration: 200ms;
+        color: $black;
+
+        &:hover {
+          color: $beige;
+        }
+      }
+    }
+
   }
 }
