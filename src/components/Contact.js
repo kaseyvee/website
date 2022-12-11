@@ -2,7 +2,7 @@ import { Tooltip } from "@mui/material";
 
 export default function Contact() {
   return (
-    <div id="contact" className="page">
+    <section id="contact" className="page">
       <div>
         <h1>Where to find me</h1>
         <p>Even if you just wanna say hi, my inbox is always open. :)</p>
@@ -18,6 +18,6 @@ export default function Contact() {
         <a href="mailto:kaseyvaldez98@gmail.com?subject=Hello Cool Person!"><i className="fa-solid fa-envelope"></i></a>
       </Tooltip>
       </div>
-    </div>
+    </section>
   )
 }

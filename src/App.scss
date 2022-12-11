@@ -38,6 +38,15 @@ nav {
   font-weight: bold;
   color: $black;
 
+  h1 {
+    font-size: 70px;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
   i {
     font-size: 60px;
     margin: 2rem;
@@ -80,11 +89,22 @@ nav {
     display: flex;
     flex-direction: column;
 
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        align-self: flex-start;
+      }
+    }
+
     .bio {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
+      width: 60vw;
       
       img {
         width: 200px;
@@ -97,7 +117,6 @@ nav {
       }
   
       .intro {
-        width: 40vw;
         font-size: larger;
       }
     }
@@ -106,14 +125,59 @@ nav {
   #contact {
     display: flex;
     flex-direction: column;
+  }
 
-    h1 {
-      font-size: 70px;
-      margin: 0;
-    }
+  #projects {
+    display: flex;
+    flex-direction: column;
 
-    p {
-      margin: 0;
+    .projects-list {
+      margin-top: 1rem;
+      overflow: auto;
+      white-space: nowrap;
+      width: 70vw;
+
+      div {
+        display: inline-block;
+        padding: 1rem;
+        margin: 1rem;
+
+        .project-description {
+          display: flex;
+          flex-direction: column;
+          background-color: $beige;
+          border-radius: 10px;
+          padding: 2rem;
+
+          h2 {
+            margin-top: 0;
+          }
+
+          p {
+            word-break: break-all;
+            white-space: normal;
+          }
+        }
+    
+        img {
+          height: 200px;
+          border-radius: 10px;
+        }
+
+        .stack-list {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          padding: 0;
+          margin: 0;
+
+          .stack-list-item {
+            background-color: $beige;
+            border-radius: 30px;
+          }
+        }
+      }
+      
     }
   }
 }
