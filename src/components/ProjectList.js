@@ -35,7 +35,7 @@ export default function ProjectList() {
 
   const projectList = projects.map(project => {
     return (
-      <div>
+      <div className="project-article">
         <div className="project-description">
           <a href={project.link} target="_blank" rel="noreferrer noopener"><h2>{project.name}</h2></a>
           <p>{project.description}</p>

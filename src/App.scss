@@ -73,11 +73,6 @@ nav {
       flex-direction: column;
       color: $black;
   
-      h1 {
-        font-size: 150px;
-        margin: 0;
-      }
-  
       p {
         font-size: 30px;
         margin-bottom: 0;
@@ -140,6 +135,10 @@ nav {
   #projects {
     flex-direction: column;
 
+    h1 {
+      width: 70vw;
+    }
+
     .projects-list {
       margin-top: 1rem;
       overflow: auto;
@@ -148,8 +147,7 @@ nav {
 
       div {
         display: inline-block;
-        padding: 1rem;
-        margin: 0 1rem 0 1rem;
+        margin: 1rem;
 
         .project-description {
           display: flex;
@@ -198,7 +196,7 @@ nav {
     
         img {
           position: relative;
-          bottom: 40px;
+          bottom: 30px;
           left: 130px;
           height: 250px;
           border-radius: 10px;
@@ -283,6 +281,65 @@ nav {
     h1 {
       margin-left: 3rem;
       margin-right: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  #home {
+    width: auto;
+    .text {
+      margin-left: 2rem;
+    }
+  }
+
+  #about {
+    img {
+      display: none;
+    }
+
+    .skills {
+      margin-top: 1rem;
+
+      i {
+        margin: 1rem;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  #projects {
+    .projects-list {
+      width: 95vw !important;
+
+      .project-description {
+        width: 100% !important;
+        padding: 0 !important;
+        background-color: transparent !important;
+      }
+
+      .stack-list-item {
+        background-color: $beige!important;
+      }
+    }
+  }
+
+  #contact {
+    div {
+      margin: 1rem;
+    }
+
+    .links {
+      display: flex;
+
+      i {
+        margin: 1rem;
+        font-size: 2rem;
+      }
     }
   }
 }
