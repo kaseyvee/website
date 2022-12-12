@@ -245,7 +245,6 @@ nav {
   }
 
   #projects {
-
     img {
       display: none;
     }
@@ -279,8 +278,11 @@ nav {
 
   #projects {
     h1 {
-      margin-left: 3rem;
-      margin-right: 3rem;
+      margin-left: 1rem;
+    }
+
+    .project-description {
+      width: 50vw !important;
     }
   }
 }
@@ -330,7 +332,7 @@ nav {
 
   #contact {
     div {
-      margin: 1rem;
+      margin: 2rem 2rem 0 2rem;
     }
 
     .links {
