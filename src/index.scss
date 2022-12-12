@@ -30,6 +30,10 @@ body {
   border-radius: 10px;
 }
 
+::-webkit-scrollbar-corner {
+  background-color: $blue;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

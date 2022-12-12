@@ -93,43 +93,60 @@ nav {
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 70vw;
 
       h1 {
         align-self: flex-start;
       }
-    }
 
-    .bio {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 60vw;
-      
-      img {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        border: 3px solid $beige;
-        border-radius: 50%;
-        margin-right: 2rem;
-        transition-duration: 200ms;
+      .skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
 
-        &:hover {
-          filter: grayscale(100%);
-          box-shadow: 3px 3px $beige;
+        i {
+          margin-bottom: 0;
         }
       }
+
+      .bio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          border: 3px solid $beige;
+          border-radius: 50%;
+          margin-right: 2rem;
+          transition-duration: 200ms;
   
-      .intro {
-        font-size: larger;
+          &:hover {
+            filter: grayscale(100%);
+            box-shadow: 3px 3px $beige;
+          }
+        }
+    
+        .intro {
+          font-size: larger;
+        }
       }
     }
+
   }
 
   #projects {
     display: flex;
     flex-direction: column;
+
+    h1 {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
 
     .projects-list {
       margin-top: 1rem;
@@ -208,5 +225,45 @@ nav {
   #contact {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    background-color: transparent;
+  }
+
+  #home {
+    width: 80vw;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  #about {
+    .about-container {
+      width: 60vw;
+
+      h1 {
+        align-self: center !important;
+      }
+
+      .bio {
+        flex-direction: column !important;
+
+        img {
+          margin: 1rem;
+        }
+      }
+
+      .skills {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        width: 80vw;
+      }
+    }
   }
 }
