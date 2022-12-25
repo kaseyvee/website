@@ -11,10 +11,17 @@ export default function ProjectList() {
       link: "https://github.com/muhammad-usama12/teebo"
     },
     {
+      name: "me.brand()",
+      description: "A fully front-end template generator for providing users a medium to introduce themselves with an eye-catching photo/banner using recognizable and iconic designs.",
+      image: "https://github.com/kaseyvee/me-brand/raw/main/docs/soobway.png?raw=true",
+      techStack: ["React", "Sass"],
+      link: "https://kaseyvee.github.io/me-brand/"
+    },
+    {
       name: "pikmeup",
       description: "A food order pick-up application that allows customers to receive SMS updates regarding the status of their order.",
       image: "https://i.imgur.com/XisKtLq.png",
-      techStack: ["Node.js", "Express", "Sass", "jQuery", "PostgreSQL"],
+      techStack: ["Node.js", "Express", "EJS", "Sass", "jQuery", "PostgreSQL"],
       link: "https://github.com/nicohsfu/pikmiup"
     },
     {
