@@ -4,6 +4,13 @@ export default function WIP() {
   
   const projects = [
     {
+      name: "AKMUO",
+      description: "A front-end e-commerce application for Vancouver-based AKMUO Jewelry.",
+      image: "https://github.com/kaseyvee/akmuo/raw/main/docs/landing-page.png?raw=true",
+      techStack: ["React", "Sass"],
+      link: "https://github.com/kaseyvee/akmuo"
+    },
+    {
       name: "me.brand()",
       description: "A fully front-end template generator for providing users a medium to introduce themselves with an eye-catching photo/banner using recognizable and iconic designs.",
       image: "https://github.com/kaseyvee/me-brand/raw/main/docs/soobway.png?raw=true",
